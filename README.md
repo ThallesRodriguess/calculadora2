@@ -46,3 +46,13 @@ if (loginScreen.login("john1", "password123")) {
 
 // Adicione um novo usuário
 loginScreen.addUser("testuser", "testpassword");
+```
+## Testes
+
+O repositório também inclui testes JUnit para a classe `LoginScreen` a fim de garantir a funcionalidade dos recursos de autenticação e gerenciamento de usuário. Os testes abrangem os seguintes cenários:
+
+- `testSuccessfulLogin`: Testa uma tentativa de login bem-sucedida.
+- `testFailedLogin`: Testa uma tentativa de login malsucedida.
+- `testAddUser`: Testa a adição de um novo usuário ao banco de dados.
+
+Para executar os testes, você pode utilizar a estrutura de testes JUnit no seu ambiente de desenvolvimento.
